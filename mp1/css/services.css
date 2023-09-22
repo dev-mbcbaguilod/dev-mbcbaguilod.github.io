@@ -1,0 +1,382 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* MOBILE SETTINGS */
+@media screen {
+   /* NAVBAR */
+.navbar-brand img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-brand h6 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+}
+
+nav{
+    background-color: #e48d3e;
+}
+
+.nav-item a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e48d3e;
+    font-size: 1rem;
+}
+
+.nav-item a:hover {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #695850;
+}
+
+.offcanvas-title {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#695850;
+}
+
+.navbar .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28105, 88, 80, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* BANNER */
+.hero-image {
+    height: 35vh;
+    opacity: 80%;
+    background-image: url(../img/our-services-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 88, 80, 0.6); /* color overlay with 50% opacity */
+  }
+
+.hero-text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px black;
+    width: 95vw;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.button-two {
+    background-color: #e48d3e;
+    color: white;
+    padding: 10px 15px; /* Adjust the padding to your liking */
+    border: none; /* Remove the default button border */
+    border-radius: 8px; /* Adjust the border-radius to control the button's curvature */
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+}
+
+.button-two:hover {
+    background-color: #695850;
+    color: white;
+    padding: 10px 15px; /* Adjust the padding to your liking */
+    border: none; /* Remove the default button border */
+    border-radius: 8px; /* Adjust the border-radius to control the button's curvature */
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+}
+
+/* Services */
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    /* background-color: #e48d3e; */
+}
+
+.image {
+    width: 90vw;
+    position: relative;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.image > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba (0, 0,0 ,0 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+} 
+
+.content:hover{
+    opacity: 1;
+}
+
+.content h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.content p, ul{
+    font-size: 14px;
+    margin: 10px;
+    color: white;
+}
+
+.content > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover > * {
+    transform: translateY(0px);
+}
+
+/* Clients */
+h2 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.line {
+    border: 1px solid #e48d3e;
+    width: 18vw;
+    margin-left: 1rem;
+}
+.carousel-item > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* Footer */
+.footer-top {
+    background-color: #695850;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo h6 {
+    color: white;
+}
+
+.footer-useful-links {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-useful-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-useful-links a:hover {
+    color: #e48d3e;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.footer-bottom {
+    background-color: #e48d3e;
+    text-align: center;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.footer-bottom p{
+    font-size: 13px;
+}
+ 
+}
+
+/* iPad Settings */
+@media screen and (min-width: 679px) {
+
+/* Services */
+.content h1{
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.content p, ul{
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+}
+
+/* Clients */
+.clients {
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+.carousel-item img {
+    width: 450px;
+}
+
+}
+
+/* Laptop Settings */
+@media screen and (min-width: 1440px) {
+    /* navbar */
+    .navbar-brand img {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .navbar-brand h6 {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    nav{
+        background-color: #e48d3e;
+    }
+    
+    .nav-item a {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .nav-item a:hover {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-decoration: underline;
+        color: #695850;
+    }
+
+    /* services */
+    .image { 
+        width: 500px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .content h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    
+    .content p, ul{
+        font-size: 24px;
+        margin: 10px;
+        color: white;
+    }
+
+    /* Clients */
+    .clients {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .carousel-item img {
+        width: 500px;
+    }
+    
+}
+
