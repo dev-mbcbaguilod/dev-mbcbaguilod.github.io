@@ -1,0 +1,433 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* MOBILE SETTINGS */
+@media screen {
+/* NAVBAR */
+.navbar-brand img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-brand h6 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+}
+
+nav{
+    background-color: #e48d3e;
+}
+
+.nav-item a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e48d3e;
+    font-size: 1rem;
+}
+
+.nav-item a:hover {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #695850;
+}
+
+.offcanvas-title {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#695850;
+}
+
+.navbar .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28105, 88, 80, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* BANNER */
+.hero-image {
+    height: 35vh;
+    opacity: 80%;
+    background-image: url(/dev-mbcbaguilod.github.io/mp1/img/about-us-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 88, 80, 0.6);
+  }
+
+.hero-text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* About Us Texts */
+.about-us {
+    display: flex;
+    margin: 1.5rem;
+}
+
+.about-us-left {
+    margin-right: 1rem;
+}
+
+.about-us-left h2 {
+    font-size: 45px;
+    color: #e48d3e;
+}
+
+.about-us-right h3 {
+    color: #e48d3e;
+}
+
+/* Contact Form */
+.contact-form-left {
+    padding: 2rem;
+    background-color: #695850;
+}
+
+.contact-form-left img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-form-right {
+    padding: 2rem;
+    background-color: #e48d3e;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+}
+
+#full-name {
+    margin-bottom: 0.5rem;
+}
+
+#company {
+    margin-bottom: 0.5rem;
+}
+
+#phone {
+    margin-bottom: 0.5rem;
+}
+
+#email {
+    margin-bottom: 0.5rem;
+}
+
+#message {
+    margin-bottom: 0.5rem;
+}
+
+
+#submit-button {
+    background-color: #695850;
+    color: white;
+    text-transform: uppercase;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+#submit-button:hover {
+    background-color: transparent;
+    color: #695850;
+    border: 3px solid #695850;
+    text-transform: uppercase;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.contact-form {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer-top {
+    background-color: #695850;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo h6 {
+    /* width: 10px; */
+    color: white;
+}
+
+.footer-useful-links {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-useful-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-useful-links a:hover {
+    color: #e48d3e;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 0.5rem; */
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.footer-bottom {
+    background-color: #e48d3e;
+    text-align: center;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.footer-bottom p{
+    font-size: 13px;
+}
+
+/* numbers section */
+.numbers {
+    /* height: 35vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* first row */
+.numbers-first-row {
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+}
+
+/* first box */
+.first-box {
+    width: 40vw;
+}
+
+.first-box-first-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.first-box-first-row > img {
+    width: 40px;
+    height: 40px;
+}
+
+.first-box-first-row > h3 {
+    font-size: 2rem;
+    margin-left: 0.2rem;
+}
+
+
+/* second box */
+.second-box {
+    width: 40vw;
+}
+
+.second-box-first-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.second-box-first-row > img {
+    width: 40px;
+    height: 40px;
+}
+
+.second-box-first-row > h3 {
+    font-size: 2rem;
+    margin-left: 0.2rem;
+}
+
+/* second row */
+.numbers-second-row {
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+}
+
+/* third box */
+.third-box {
+    width: 40vw;
+}
+
+.third-box-first-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.third-box-first-row > img {
+    width: 40px;
+    height: 40px;
+}
+
+.third-box-first-row > h3 {
+    font-size: 2rem;
+    margin-left: 0.2rem;
+}
+
+/* fourth box */
+.fourth-box {
+    width: 40vw;
+}
+
+.fourth-box-first-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.fourth-box-first-row > img {
+    width: 40px;
+    height: 40px;
+}
+
+.fourth-box-first-row > h3 {
+    font-size: 2rem;
+    margin-left: 0.2rem;
+}
+}
+
+
+/* LARGE SETTINGS */
+@media screen and (min-width: 992px) {
+    /* navbar */
+    .navbar-brand img {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .navbar-brand h6 {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    nav{
+        background-color: #e48d3e;
+    }
+    
+    .nav-item a {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .nav-item a:hover {
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-decoration: underline;
+        color: #695850;
+    }
+
+    /* form */
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        padding: 5rem;
+        width: 100;
+    }
+    
+    .contact-form-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-form-left {
+        width: 50%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .about-us {
+        padding: 5rem;
+    }
+
+    .about-us-right-bottom {
+        display: flex;
+    }
+    
+}
