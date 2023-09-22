@@ -626,6 +626,12 @@ nav{
     width: 50vw;
 }
 
+/* Banner */
+.hero-text h1 {
+    font-size: 2.5rem;
+    width: 33vw;
+}
+
 /* numbers */
 .numbers {
     width: 50vw;

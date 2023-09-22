@@ -85,7 +85,7 @@ nav{
     width: 95vw;
     font-size: 3rem;
     text-align: left;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .button-two {
@@ -99,7 +99,7 @@ nav{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .button-two:hover {
@@ -113,7 +113,7 @@ nav{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 /* Services */
