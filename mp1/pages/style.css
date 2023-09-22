@@ -686,15 +686,24 @@ nav{
     margin: 0.5rem;
 }
 
+/* Contact Form */
 .contact-form {
     display: flex;
     margin: 5rem;
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .contact-form-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contact-form img {
+    width: 100%;
+    margin: 2rem auto;
 }
 
 }

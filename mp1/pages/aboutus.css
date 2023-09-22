@@ -61,7 +61,7 @@ nav{
 .hero-image {
     height: 35vh;
     opacity: 80%;
-    background-image: url(../img/our-services-bg.jpg);
+    background-image: url(../img/about-us-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -430,6 +430,26 @@ input {
 
     .about-us-right-bottom {
         display: flex;
+    }
+
+    /* Contact Form */
+    .contact-form {
+        display: flex;
+        margin: 5rem;
+        width: 60vw;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+    .contact-form-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-form img {
+        width: 100%;
+        margin: 2rem auto;
     }
     
 }
