@@ -63,7 +63,7 @@ nav{
     height: 35vh;
     /* width: 100vw; */
     opacity: 80%;
-    background-image: url(/dev-mbcbaguilod.github.io/mp1/img/construction-site-silhouettes.jpg);
+    background-image: url(../img/construction-site-silhouettes.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ nav{
 }
 
 .civil-works {
-    background-image: url(/dev-mbcbaguilod.github.io/mp1/img/civil\ works.jpg);
+    background-image: url(../img/civil\ works.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
@@ -346,7 +346,7 @@ nav{
 }
 
 .mechanical-works {
-    background-image: url(/dev-mbcbaguilod.github.io/mp1/img/mechanical\ works.jpg);
+    background-image: url(../img/mechanical\ works.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
@@ -377,7 +377,7 @@ nav{
 }
 
 .electrical-works {
-    background-image: url(/dev-mbcbaguilod.github.io/mp1/img/electrical\ works.jpg);
+    background-image: url(../img/electrical\ works.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;

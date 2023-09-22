@@ -61,7 +61,7 @@ nav{
 .hero-image {
     height: 35vh;
     opacity: 80%;
-    background-image: url(/dev-mbcbaguilod.github.io/mp1/img/our-services-bg.jpg);
+    background-image: url(../img/our-services-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
