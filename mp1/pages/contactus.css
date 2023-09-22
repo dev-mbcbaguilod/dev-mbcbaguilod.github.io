@@ -213,13 +213,6 @@ tr td:first-child {
     .contact-form {
         margin: 2rem;
     }
-
-    footer {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -265,7 +258,7 @@ nav{
 /* form */
 .contact-form {
     width: 90%;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
 .contact-form-content {

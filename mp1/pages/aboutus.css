@@ -109,6 +109,7 @@ nav{
 
 /* Contact Form */
 .contact-form-left {
+    width: 100vw;
     padding: 2rem;
     background-color: #695850;
 }
@@ -119,6 +120,7 @@ nav{
 }
 
 .contact-form-right {
+    width: 100vw;
     padding: 2rem;
     background-color: #e48d3e;
     color: white;
@@ -436,7 +438,7 @@ input {
     .contact-form {
         display: flex;
         margin: 5rem;
-        width: 60vw;
+        width: 80vw;
         margin: 0 auto;
         margin-bottom: 2rem;
     }
