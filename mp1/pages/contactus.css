@@ -289,5 +289,13 @@ input {
 .about-us-right-bottom {
     display: flex;
 }  
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
    
 }
